@@ -13,3 +13,7 @@
 ## Test callback function (module_param_cb)
 
 ```sudo sh -c "echo 13 > /sys/module/hello_world_module/parameters/cb_valueETX"```
+
+## Unload driver
+
+``` sudo rmod passing-arguments ```
